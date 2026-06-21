@@ -1,5 +1,7 @@
 Project - Recipes
 
+Part 1: 
+Static HTML
 A basic recipe website built with just HTML. The goal is to practice writing semantic HTML, build multi-page navigation using anchor links, and structure recipe content clearly with lists. 
 
 The homepage introduces the website and links to three recipe web pages.
@@ -15,3 +17,13 @@ For the image element: src attribute points the path to the image file; alt attr
 Important text can be marked with the strong element and emphasis with the em element, which is essential for screen readers on how the text should be read. 
 
 To generate dummy text for the web pages, 'lorem' can be used with the paragraph element.
+
+Part 2: 
+Style HTML elements with CSS
+It's recommended to use an external stylesheet to style HTML elements because it's more flexible, and it allows styling of multiple web pages with just a single stylesheet. 
+
+CSS can change how HTML elements behave in normal flow, for example, by using the display property.
+
+Understanding the box model is important because it shows how elements are structured individually, and also how they interact with one another.
+
+You can view the box model using the Chrome DevTools, where you can inspect the styles applied (or not applied) to each HTML element on the page.
