@@ -1,17 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Odin Recipes</title>
-</head>
-<body>
-    <h1>Odin Recipes</h1>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
 
-    <ul>
-        <li><a href="recipes/one-pan-veggie-stir-fry.html">One-Pan Veggie Stir Fry</a></li>
-        <li><a href="recipes/tomato-cheese-quesadilla.html">Tomato and Cheese Quesadilla</a></li>
-        <li><a href="recipes/banana-oat-pancakes.html">Banana Oat Pancakes</a></li>
-    </ul>
-</body>
+  <body>
+    <div class="wrapper">
+      <h1>Odin Recipes</h1>
+
+      <nav>
+        <ul>
+          <li><a href="recipes/one-pan-veggie-stir-fry.html">One-Pan Veggie Stir Fry</a></li>
+          <li><a href="recipes/tomato-cheese-quesadilla.html">Tomato and Cheese Quesadilla</a></li>
+          <li><a href="recipes/banana-oat-pancakes.html">Banana Oat Pancakes</a></li>
+        </ul>
+      </nav>
+    </div>
+  </body>
 </html>
+
+<!-- 
+That explains how elements are structured individually, but how about the way they're structured when they interact with one another? The normal layout flow (mentioned in the layout introduction article) is the system by which elements are placed inside the browser's viewport. By default, block-level elements are laid out in the block flow direction, which is based on the parent's writing mode (initial: horizontal-tb). Each element will appear on a new line below the last one, with each one separated by whatever margin that's been specified. In English, for example, (or any other horizontal, top to bottom writing mode) block-level elements are laid out vertically.
+-->
